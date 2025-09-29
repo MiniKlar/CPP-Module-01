@@ -6,7 +6,7 @@
 /*   By: lomont <lomont@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/27 02:23:30 by lomont            #+#    #+#             */
-/*   Updated: 2025/09/27 03:54:15 by lomont           ###   ########.fr       */
+/*   Updated: 2025/09/29 11:58:56 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,10 @@ Zombie* newZombie(std::string name) {
 	Zombie* ptr;
 
 	ptr = new Zombie (name);
-	if (ptr == nullptr)
+	if (ptr == NULL) {
 		std::cout << "Error allocation!" << std::endl;
-		exit(1);
+		return (NULL);
+	}
 	return (ptr);
-};
+}
+

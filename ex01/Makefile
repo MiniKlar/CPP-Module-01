@@ -1,6 +1,6 @@
 NAME = Moarbrainz!
 
-C++ = c++
+C++ = g++-15
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 RM = rm -f

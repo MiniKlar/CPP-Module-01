@@ -1,0 +1,5 @@
+Une ligne vide suit:
+
+Encore du texte
+Et une autre ligne
+Fin du fichier

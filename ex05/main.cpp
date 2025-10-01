@@ -6,7 +6,7 @@
 /*   By: lomont <lomont@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 19:00:10 by lomont            #+#    #+#             */
-/*   Updated: 2025/09/30 23:07:13 by lomont           ###   ########.fr       */
+/*   Updated: 2025/10/01 17:52:35 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 int main ( void ) {
 	Harl Jarvis;
 
-	std::string s = "ERROR";
+	std::string s = "WARNING";
 	Jarvis.complain(s);
 	return (0);
 }

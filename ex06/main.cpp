@@ -6,7 +6,7 @@
 /*   By: lomont <lomont@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/30 23:11:15 by lomont            #+#    #+#             */
-/*   Updated: 2025/09/30 23:42:57 by lomont           ###   ########.fr       */
+/*   Updated: 2025/10/01 17:53:34 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,5 @@ int main (int argc, char **argv) {
 	Harl Jarvis;
 	std::string s = argv[argc - 1];
 	Jarvis.complain(s);
-
 	return (0);
 };

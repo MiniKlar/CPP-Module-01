@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: miniklar <miniklar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lomont <lomont@student.42lehavre.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 08:29:51 by miniklar          #+#    #+#             */
-/*   Updated: 2025/09/28 08:55:59 by miniklar         ###   ########.fr       */
+/*   Updated: 2025/10/01 17:36:31 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void Zombie::announce( void ) {
 	return ;
 }
 
-void Zombie::SetName( std::string name ) {
+void Zombie::SetName(const std::string& name ) {
 	this->name = name;
 	return ;
 }
